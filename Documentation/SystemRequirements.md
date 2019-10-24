@@ -84,5 +84,13 @@
 * Приложение реализовано на языке Java.
 
 ## 4 Аналоги
-Аналогами проекта являются: https://play.google.com/store/apps/details?id=com.apssinfo.spravochnikkhimicheskieelementy&hl=eu
-https://play.google.com/store/apps/details?id=com.studyapps.chemru&hl=ru
+Аналогами проекта являются:  Известные аналоги: [Справочник химических элементов]https://play.google.com/store/apps/details?id=com.apssinfo.spravochnikkhimicheskieelementy&hl=eu) и [Химия](https://play.google.com/store/apps/details?id=com.studyapps.chemru&hl=ru
+).  
+
+ Возможности |Справочник химических элементов| Химия
+--- | :-: | :-: 
+Доступно на Android |Да|Да
+Поддержка русского языка | Нет|Да
+Бесплатно |Да|Да
+Поиск элементов | Нет|Да
+
