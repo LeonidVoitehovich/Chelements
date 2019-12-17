@@ -1,6 +1,5 @@
 В проекте используется паттерн Singleton для работы данными.
 Реализация:
-
 ```java
 
 public class DataManagerSingleton {
