@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
 
 	public static MainActivity instance;
 	
-	private DataManager dataManager;
+	private DataManagerSingleton dataManager;
 	private EditText input;
 	private ScrollView scroll;
 	private TextView data;
@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		instance = this;
-		dataManager = new DataManager();
+		dataManager.getInstance();
 		((ChemistryDataApplication) getApplication()).setData(dataManager);
 		try {
 			dataManager.load(getApplicationContext());
