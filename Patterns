@@ -1,7 +1,6 @@
 В проекте используется паттерн Singleton для работы данными.
 Реализация
 ```java
-package org.sparkfiregames.chemdata;
 
 
 public class DataManagerSingleton {
