@@ -1,7 +1,7 @@
 В проекте используется паттерн Singleton для работы данными.
 Реализация:
 
-
+```java
 
 public class DataManagerSingleton {
     private static DataManagerSingleton instance;
@@ -18,3 +18,8 @@ public class DataManagerSingleton {
         return instance;
     }
 }
+```
+Обращения к данным реализованы через метод класса DataManagerSingleton getInstance()
+```java
+dataManager.getInstance();
+```
